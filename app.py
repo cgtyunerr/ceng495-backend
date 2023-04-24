@@ -353,7 +353,3 @@ def get_items():
     response = jsonify({'status': 'Ok', 'data': item_list})
     response.status_code = 200
     return response
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
